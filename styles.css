@@ -1,0 +1,27 @@
+
+header{
+    border: darkolivegreen 2px solid;
+}
+#navbar{
+    background-color: white;
+    text-align: left;
+    position:fixed;
+    display: inline-flex;
+    align-items: center;
+    top: 0;
+    width: 100%;
+    margin-right:-10px;
+    margin-left: -5px;
+}
+#navlist{
+    border: dashed 1px darkgreen;
+}
+header li{
+    display: inline-block;
+    border: black solid 1px;
+    font-size: 28px;
+}
+
+a:hover{
+    background-color:antiquewhite ;
+}
