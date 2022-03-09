@@ -2326,6 +2326,8 @@ input, select, textarea {
 	}
 	#main .about-me .am-text {
 		padding: 10px;
+		font-weight: 500;
+		color: #000000;
 	}
 	.inner header{
 		display: flex;
@@ -2412,14 +2414,16 @@ input, select, textarea {
 		.middle {
 			display: flex;
 			flex-direction: row-reverse;
-			padding: 2%;
+			padding: 2% 0 2% 0;
 		}
 		.middle-text, .final-text{
 			overflow-wrap: break-word;
     		inline-size: 50%;
+			padding: 10px;
+			width: 100%
 		}
 		.middle img{
-			width: 600px;
+			width: 500px;
 			height: 500px;
 			padding: 5px;
 			object-fit: contain;	
@@ -2826,6 +2830,7 @@ input, select, textarea {
 
 			body:not(.is-touch) .tiles article:hover .content {
 				max-height: 15em;
+				font-weight: 550;
 				opacity: 1;
 			}
 
