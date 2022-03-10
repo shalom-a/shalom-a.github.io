@@ -2379,7 +2379,7 @@ input, select, textarea {
 		.quickinfo {
 			display: flex;
 			flex-direction: column;
-			padding: 5%;
+			padding-left: 5%;
 			font-size: large;
 			margin: 0px;
 			overflow-wrap: break-word;
@@ -2391,12 +2391,21 @@ input, select, textarea {
 			-webkit-text-stroke: unset !important;
 			font-size: 2.2em;
 		}
+		.quickinfo #EE{
+			font-size: 30px;
+		}
 		.quickinfo li {
 			font-size: large;
 		}
 		.intro {
 			display: flex;
 			height: 30em;
+		}
+		video{
+			padding-left: 3%;
+		}
+		#special{
+			border:#faeb89 1px solid;
 		}
 		.image.main {
 			/* display: flex; */
